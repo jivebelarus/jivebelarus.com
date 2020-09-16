@@ -1,0 +1,30 @@
+{
+  "name": "template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && npm run dev",
+    "test": "./node_modules/mocha/bin/mocha ./test --recursive",
+    "dev": "./node_modules/.bin/nodemon --exec \"node .\"",
+    "prod": "NODE_ENV=production node ./",
+    "serv": "http-server front"
+  },
+  "author": "jivebelarus",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "http-server": "^0.12.3",
+    "mocha": "^5.0.1",
+    "nodemon": "^1.15.1"
+  },
+  "dependencies": {
+    "config": "^1.29.4",
+    "lodash": "^4.17.20",
+    "log4js": "^2.3.10",
+    "node-fetch": "^2.6.1",
+    "node-ssh": "^11.0.0",
+    "puppeteer": "^5.2.1",
+    "serialize-error": "^7.0.1"
+  }
+}

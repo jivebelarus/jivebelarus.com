@@ -1,0 +1,39 @@
+{
+  "app": {
+    "name": "Template",
+    "port": 3000,
+    "loglevel": "info"
+  },
+  "upload": {
+    "front": "front",
+    "valuejs": "value.js"
+  },
+  "nbrb": {
+    "usd": "https://www.nbrb.by/api/exrates/rates/840?parammode=1",
+    "eu": "https://www.nbrb.by/api/exrates/rates/978?parammode=1"
+  },
+  "hp": {
+    "url": "https://help.honest-people.by/api/all-data"
+  },
+  "byhelp": {
+    "fb": "https://www.facebook.com/donate/1123543824684874",
+    "pp": "https://www.paypal.com/pools/c/8qk6aQYmmt"
+  },
+  "bysol": {
+    "fb": "https://www.facebook.com/donate/759400044849707",
+    "pp": "https://www.paypal.com/pools/c/8rGBMLGgmX"
+  },
+  "mikado": {
+    "fb": "https://www.facebook.com/donate/769820927163467"
+  },
+  "names": {
+    "injured": "https://imenamag.by/projects/help-for-injured"
+  },
+  "hmr": {
+    "url": "https://defendbelarus.funraise.org/api/v1/public/campaignSite/page/7148d45d-4148-4b28-8cdf-27ef603c9caf/goal"
+  },
+  "mediasol": {
+    "url": "https://gateway.gofundme.com/web-gateway/v1/feed/mediasol/counts",
+    "pp": "https://www.paypal.com/pools/c/8sonQvgcqM"
+  }
+}
